@@ -1,0 +1,66 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #e1f7e6;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #451728;
+  font-family: Georgia, serif;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #256350;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #134536;
+}
+
+#recipeDisplay {
+  background-color: #e8c1cf;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  color: #451728;
+  font-family: Georgia, serif;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.ingredients {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.ingredients ul {
+  padding-left: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ol {
+  text-align: left;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
